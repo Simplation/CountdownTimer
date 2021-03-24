@@ -1,6 +1,10 @@
 package com.example.androiddevchallenge.anim
 
-import androidx.compose.animation.core.*
+import androidx.compose.animation.core.AnimationState
+import androidx.compose.animation.core.animateTo
+import androidx.compose.animation.core.isFinished
+import androidx.compose.animation.core.Spring
+import androidx.compose.animation.core.spring
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.State
