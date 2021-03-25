@@ -17,5 +17,3 @@ data class TimeParts(
     val minutes: Int,
     val seconds: Int
 )
-
-

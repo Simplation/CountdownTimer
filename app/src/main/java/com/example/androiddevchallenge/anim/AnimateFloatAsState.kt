@@ -12,7 +12,9 @@ import androidx.compose.runtime.remember
 
 @Composable
 fun animateFloatAsState(key: Any?, targetValue: Float): State<Float> {
-    val animSpec = remember { spring<Float>(stiffness = Spring.StiffnessLow) }
+    val animSpec = remember {
+        spring<Float>(stiffness = Spring.StiffnessLow)
+    }
     val animationState = remember(key) { AnimationState(targetValue) }
 
     LaunchedEffect(key, targetValue, animSpec) {

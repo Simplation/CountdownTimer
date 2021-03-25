@@ -64,6 +64,7 @@ fun PreviewTimerSection() {
         currentValue = 10,
         nextValue = 20,
         factor = 0F,
-        onIncrement = { /*TODO*/ },
-        onDecrement = { /*TODO*/ })
+        onIncrement = { },
+        onDecrement = { }
+    )
 }

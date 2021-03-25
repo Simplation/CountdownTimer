@@ -57,7 +57,7 @@ fun MyApp(onDarkThemeToggled: () -> Unit) {
             }
         )
     }) {
-        Surface() { // color = MaterialTheme.colors.background
+        Surface { // color = MaterialTheme.colors.background
             Card(
                 modifier = Modifier
                     .padding(start = 20.dp, top = 20.dp, end = 20.dp, bottom = 20.dp),

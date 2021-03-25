@@ -55,7 +55,6 @@ fun TimerClock(seconds: Int, endMillis: Long, events: TimerClockEvents) {
             onDecrement = events.onSecondsDecrement
         )
     }
-
 }
 
 class TimerClockEvents(
