@@ -21,11 +21,11 @@ buildscript {
 
     repositories {
         google()
-        jcenter()
+        mavenCentral()
     }
 
     dependencies {
-        classpath 'com.android.tools.build:gradle:7.0.0-alpha12'
+        classpath 'com.android.tools.build:gradle:7.1.0-alpha04'
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
     }
 }
@@ -37,7 +37,7 @@ plugins {
 subprojects {
     repositories {
         google()
-        jcenter()
+        mavenCentral()
     }
 
     apply plugin: 'com.diffplug.spotless'
